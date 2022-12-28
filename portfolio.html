@@ -27,71 +27,29 @@
           <a class="logo" href="./index.html"
             ><span class="logo__web">Web</span>Studio</a
           >
-          <button
-            class="menu-button"
-            type="button"
-            aria-expanded="false"
-            data-menu-button
+        </div>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            class="switch"
+            width="40"
+            height="40"
+            aria-label="Перемикач основного меню"
           >
-            <svg
-              class="switch"
-              width="40"
-              height="40"
-              aria-label="Перемикач основного меню"
-            >
-              <use
-                class="icon-menu"
-                href="./images/icons.svg#icon-menu_40px"
-              ></use>
-              <use
-                class="icon-close"
-                href="./images/icons.svg#icon-close_40px"
-              ></use>
-            </svg>
-          </button>
-        </div>
-
-        <div class="mobile" data-menu>
-          <ul class="menu-mobile">
-            <li class="menu-mobile__item">
-              <a class="menu-mobile__link" href="./index.html">Студія</a>
-            </li>
-            <li class="menu-mobile__item">
-              <a class="menu-mobile__link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="menu-mobile__item">
-              <a class="menu-mobile__link" href="./index.html">Контакти</a>
-            </li>
-          </ul>
-          <ul class="mobile-contacts">
-            <li class="mobile-contacts__item">
-              <a class="mobile-contacts__link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-            <li class="mobile-contacts__item">
-              <a
-                class="mobile-contacts__link mobile-contacts__link--email"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="mobile-socials">
-            <li class="mobile-socials__item">
-              <a class="mobile-socials__link" href="">Instagram</a>
-            </li>
-            <li class="mobile-socials__item">
-              <a class="mobile-socials__link" href="">Twitter</a>
-            </li>
-            <li class="mobile-socials__item">
-              <a class="mobile-socials__link" href="">Facebook</a>
-            </li>
-            <li class="mobile-socials__item">
-              <a class="mobile-socials__link" href="">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-menu_40px"
+            ></use>
+            <use
+              class="icon-close"
+              href="./images/icons.svg#icon-close_40px"
+            ></use>
+          </svg>
+        </button>
 
         <div class="nav-hide">
           <nav class="page-header__navigation">
@@ -141,6 +99,47 @@
           </li>
         </ul>
       </div>
+      <div class="mobile" data-menu>
+        <ul class="menu-mobile">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="./index.html">Студія</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="./index.html">Контакти</a>
+          </li>
+        </ul>
+        <ul class="mobile-contacts">
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-contacts__item">
+            <a
+              class="mobile-contacts__link mobile-contacts__link--email"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-socials">
+          <li class="mobile-socials__item">
+            <a class="mobile-socials__link" href="">Instagram</a>
+          </li>
+          <li class="mobile-socials__item">
+            <a class="mobile-socials__link" href="">Twitter</a>
+          </li>
+          <li class="mobile-socials__item">
+            <a class="mobile-socials__link" href="">Facebook</a>
+          </li>
+          <li class="mobile-socials__item">
+            <a class="mobile-socials__link" href="">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- main -->
     <main>
@@ -179,8 +178,8 @@
                 <div class="projects-cards__thumb">
                   <img
                     class="projects-cards__item"
-                    src="./images/project-img1.jpg"
-                    width="370"
+                    src="./images/projects-cards/card_1-450px.jpg"
+                    
                     alt="ноутбук з фотокартками"
                   />
                   <div class="projects-cards__actions">
@@ -203,8 +202,8 @@
                 <div class="projects-cards__thumb">
                   <img
                     class="projects-cards__item"
-                    src="./images/img-2.jpg"
-                    width="370"
+                    src="./images/projects-cards/card_1-450px.jpg"
+                    
                     alt="чоловіки грають в баскетбол"
                   />
                   <div class="projects-cards__actions">
@@ -230,7 +229,7 @@
                   <img
                     class="projects-cards__item"
                     src="./images/project-img3.jpg"
-                    width="370"
+                   
                     alt="лого ресторану"
                   />
                   <div class="projects-cards__actions">
@@ -254,7 +253,7 @@
                   <img
                     class="projects-cards__item"
                     src="./images/project-img4.jpg"
-                    width="370"
+                   
                     alt="навушники"
                   />
                   <div class="projects-cards__actions">
@@ -401,7 +400,8 @@
     <!-- footer -->
     <footer class="footer">
       <div class="footer__box container">
-        <div class="footer-contacts">
+        <div class="footer__contacts-adding">
+           <div class="footer-contacts">
           <a class="logo footer__logo" href="./index.html"
             ><span class="logo__web">Web</span
             ><span class="logo--studio">Studio</span></a
@@ -417,14 +417,12 @@
                 >
               </li>
               <li class="address__item">
-                <a
-                  class="footer__mail-link mail"
-                  href="mailto:info@devstudio.com"
+                <a class="footer__mail-link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="address__item">
-                <a class="footer__phone-link number" href="tel:+380961111111"
+                <a class="footer__phone-link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -464,6 +462,9 @@
             </li>
           </ul>
         </div>
+        </div>
+
+       
         <div class="mailing">
           <form class="mailing__form">
             <label class="mailing__form-field">

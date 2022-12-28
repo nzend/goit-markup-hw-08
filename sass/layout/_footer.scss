@@ -23,13 +23,17 @@
   }
 }
 .footer__contacts-adding {
+  
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: baseline;
     padding-left: 61px;
     padding-right: 74px;
-    margin-bottom: 60px;
+        margin-bottom: 60px;
+
+    
   }
+ 
 }
 
 .footer__box {
@@ -37,9 +41,10 @@
   padding-bottom: 60px;
 }
 .footer-contacts {
+
   text-align: center;
-  @media screen and (min-width: 480px) and (max-width: 768px) {
-    margin-bottom: 60px;
+  @media screen and (max-width: 768px) {
+      margin-bottom: 60px;
   }
 }
 
