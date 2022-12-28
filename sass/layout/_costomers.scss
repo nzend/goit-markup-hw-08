@@ -1,0 +1,34 @@
+
+.costomers__list {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+  }
+  .costomers__item {
+    width: 210px;
+    height: 92px;
+  }
+  
+  .costomers__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  
+    fill: #afb1b8;
+  
+    transition: border-color 250ms var(--cubic), fill 250ms var(--cubic);
+
+    &:hover,
+  &:focus {
+    border-color: var(--brend-color);
+    fill: var(--brend-color);
+  }
+  }
+  

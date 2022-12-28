@@ -1,0 +1,28 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .social__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .social__join-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--icons-border-radius);
+  
+    fill: var(--items-color);
+  
+    transition: fill 250ms var(--cubic), background-color 250ms var(--cubic);
+
+    &:hover,
+  &:focus {
+    fill: var(--main-white-color);
+    background-color: var(--brend-color);
+  }
+  }
