@@ -12,7 +12,7 @@
   border-left: 1px solid var(--cards-border-color);
 }
 .projects-cards__item:first-child .projects-cards__discriptions {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding: 20px 24px 56px;
   }
 }

@@ -1,38 +1,39 @@
 .speciality {
   display: none;
- 
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .speciality__list {
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 30px;
-     @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
-    
+    flex-wrap: wrap;
+    gap: 30px;
   }
-  }
-  .speciality__item {
-    position: relative;
-  }
-  .speciality__title-box {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    bottom: 0;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    background-color: rgba(47, 48, 58, 0.8);
-  }
-  
-  .speciality__title {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 1.14em;
-    text-align: center;
-    color: var(--main-white-color);
-  }
+}
+.speciality__item {
+  position: relative;
+}
+.speciality__title-box {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.speciality__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.14em;
+  text-align: center;
+  color: var(--main-white-color);
+}
