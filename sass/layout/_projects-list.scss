@@ -1,8 +1,7 @@
 .projects-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-bottom: 50px;
+  justify-content: center;
 }
 .projects__item + .projects__item {
   margin-left: 8px;

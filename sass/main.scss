@@ -1,27 +1,34 @@
-@import "./base/reset";
-@import "./base/common";
-@import "./utils/vars";
-@import "./utils/mixin";
 
-@import "./base/section";
-@import "./base/container";
+@import './base/reset';
+@import './base/common';
+@import './utils/vars';
+@import './utils/mixin';
 
-@import "./base/hide";
+@import './base/section';
+@import './base/container';
 
-@import "./components/logo";
-@import "./components/section-title";
-@import "./components/main-button";
-@import "./components/socials";
-@import "./components/mailing";
+@import './base/hide';
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/features";
-@import "./layout/speciality";
-@import "./layout/team";
-@import "./layout/costomers";
-@import "./layout/footer";
-@import "./layout/modal";
+@import './components/logo';
+@import './components/section-title';
+@import './components/main-button';
+@import './components/socials';
+@import './components/mailing';
 
-@import "./layout/projects-list";
-@import "./layout/projects-cards";
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/speciality';
+@import './layout/team';
+@import './layout/costomers';
+@import './layout/footer';
+@import './layout/modal';
+
+@import './layout/projects-list';
+@import './layout/projects-cards';
+
+
+
+
+
