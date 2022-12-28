@@ -31,6 +31,12 @@
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--cubic);
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  // min-height: 581px;
+    
+  }
 }
 .close-button {
   position: absolute;
@@ -148,7 +154,10 @@
 .accept__field {
   display: flex;
   align-items: center;
-  // justify-content: center;
+  
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+  }
 }
 
 .accept__checkbox {
@@ -185,6 +194,9 @@
   font-size: 12px;
 
   color: var(--main-color);
+   @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 .accept__contract-link {
   letter-spacing: 0.03em;

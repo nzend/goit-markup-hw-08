@@ -1,6 +1,6 @@
 .mailing {
   margin-left: auto;
-  text-align: center;
+  // text-align: center;
 }
 .mailing__label {
   display: inline-block;
@@ -11,22 +11,28 @@
   text-transform: uppercase;
 
   color: var(--main-white-color);
-  @media screen and (min-width: 768px) {
-    display: block;
-  }
 }
 .mailing__form {
-  // display: flex;
-  // align-items: flex-end;
-}
+  display: block;
+  @media screen and (max-width: 1199px) {
+      text-align: center;
 
+  }
 
-.mailing__form-field {
- 
-     @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
-  flex-direction: column;
-  align-items: center;
+    align-items: flex-end;
+  }
+}
+.mailing__form-field {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -45,6 +51,11 @@
   &:hover,
   &:focus {
     border-color: var(--brend-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-bottom: 0;
   }
 }
 
@@ -74,7 +85,6 @@
   &:focus {
     background-color: var(--brend-color-active);
   }
-
 }
 .mailing-button__icon {
   position: absolute;
