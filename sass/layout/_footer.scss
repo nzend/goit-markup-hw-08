@@ -18,15 +18,29 @@
     color: var(--contacts-color);
     transition: color 250ms var(--cubic);
   }
-  
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
 }
+.footer__contacts-adding {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: baseline;
+    padding-left: 61px;
+    padding-right: 74px;
+    margin-bottom: 60px;
+  }
+}
+
 .footer__box {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-contacts {
   text-align: center;
-  margin-bottom: 60px;
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    margin-bottom: 60px;
+  }
 }
 
 .logo--studio {
@@ -65,7 +79,7 @@
 }
 .adding {
   text-align: center;
-  margin-bottom: 60px;
+  margin-left: auto;
 
   &__title {
     margin-bottom: 20px;
@@ -77,5 +91,8 @@
     letter-spacing: 0.03em;
 
     color: var(--main-white-color);
+  }
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    margin-bottom: 60px;
   }
 }

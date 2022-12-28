@@ -6,14 +6,21 @@
   }
   
   .team__list {
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 30px;
+     @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+  }
   }
   .team__item {
+   
     background-color: var(--main-white-color);
     box-shadow: var(--cards-shadow);
     border-radius: var(--cards-radius);
+    @media screen and (min-width: 768px) {
+    width: 354px;
+  }
   }
   
   .team__photo {

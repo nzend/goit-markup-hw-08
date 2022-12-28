@@ -1,8 +1,10 @@
 .features__list {
-  // display: flex;
-  // flex-wrap: wrap;
-  // gap: 30px;
- 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+  }
 }
 
 .features__icon-box {
@@ -17,12 +19,19 @@
   border-radius: var(--border-radius);
 
   background-color: var(--second-white-color);
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
 }
 
 .features__item {
   width: 450px;
   &:not(:last-child) {
     margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
   }
 }
 .features__title {
