@@ -5,9 +5,7 @@
   }
 }
 .hero {
-  // max-width: 480px;
-  // height: 400px;
-
+  max-width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
   margin-left: auto;
@@ -20,7 +18,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../images/hero/mobile-header.jpg");
+    url("../images/hero/mobile-header.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,19 +34,20 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../../images/hero/mobile-header@2x.jpg");
+        url("../images/hero/mobile-header@2x.jpg");
     }
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
+    // height: 400px;
 
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/hero/tablet-header.jpg");
+      url("../images/hero/tablet-header.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -60,20 +59,25 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../../images/hero/tablet-header@2x.jpg");
+          url("../images/hero/tablet-header@2x.jpg");
       }
     }
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
 
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/hero/desktop-header.jpg");
+      url("../images/hero/desktop-header.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -85,7 +89,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../../images/hero/desktop-header@2x.jpg");
+          url("../images/hero/desktop-header@2x.jpg");
       }
     }
   }
