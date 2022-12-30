@@ -22,8 +22,8 @@
   top: 50%;
   left: 50%;
 
-  min-width: 450px;
-  min-height: 609px;
+  width: 450px;
+  height: 609px;
   
 
   background: var(--main-white-color);
@@ -68,6 +68,7 @@
 
 .callback {
   padding: 40px;
+
 }
 .callback__form-field {
   position: relative;
