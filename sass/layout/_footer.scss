@@ -25,7 +25,7 @@
   }
 }
 .footer__contacts-adding {
-  @media screen and (min-width: 768px) and (max-width: 1199px)  {
+  @media screen and (min-width: 768px)   {
     display: flex;
     justify-content: baseline;
     padding-left: 61px;
@@ -46,7 +46,7 @@
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 60px;
   }
   
